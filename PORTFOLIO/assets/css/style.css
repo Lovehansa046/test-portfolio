@@ -81,7 +81,7 @@ body {
     margin-top: 30px;
 }
 
-.navbar {
+.navbar__about {
     margin-right: auto;
     margin-left: auto;
 }
@@ -179,7 +179,7 @@ body {
         /* margin-right: 100px; */
         /* border-top: 1px solid white; */
     }
-  
+
     .navbar__links .link__item__active {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -188,7 +188,12 @@ body {
         /* margin-right: 100px; */
         /* border-top: 1px solid white; */
     }
-    
+
+    .contact__me {
+        margin-left: auto;
+        margin-right: 40px;
+    }
+
     /* .menu {
         margin-top: 30px;
         display: block;
@@ -197,7 +202,218 @@ body {
         margin-right: auto;
     } */
 
-    .active {
+    /* .active {
+        display: block;
+    } */
+
+}
+
+
+
+
+.body-projects {
+    background-image: url(/assets/images/bg-project.jpeg);
+    margin-top: 160px;
+}
+
+.buttons__navigation {
+    text-align: center;
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    /* background: red; */
+}
+
+.buttons__navigation .btn {
+    width: 300px;
+    height: 125px;
+    background: rgba(217, 217, 217, 0.2);
+    backdrop-filter: blur(45px);
+    margin-top: 57px;
+    margin-left: 65.5px;
+    margin-right: 65.5px;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-flex;
+    border: none;
+}
+
+.buttons__navigation a {
+    margin: auto;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; */
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__links__projects {
+    text-align: center;
+    display: inline-flex;
+
+}
+
+.navbar__projects {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.text__over__project {
+    width: 700px;
+    height: 3px;
+    border-radius: 156px;
+    background: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 181px;
+}
+
+
+.navbar {
+    display: none;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.navbar-nav a {
+    display: none;
+}
+
+
+
+
+
+@media (max-width:920px) {
+    .buttons__navigation .btn {
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar__projects {
+        display: none;
+    }
+
+    .text__over__project {
+        display: none;
+        width: 350px;
+        margin-top: 100px;
+    }
+
+    .navbar__links__projects .link__item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        display: block;
+        /* margin-right: 100px; */
+        /* border-top: 1px solid white; */
+    }
+
+    .navbar__links__projects .link__item__active {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        display: block;
+        /* margin-right: 100px; */
+        /* border-top: 1px solid white; */
+    }
+
+    .navbar__links__projects {
+        display: block;
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-top: 30px;
+        /* margin-right: 100px; */
+    }
+
+    .buttons__navigation {
+        width: 400px;
+    }
+
+    .body-projects {
+        margin-top: 0px;
+    }
+
+    .navbar {
+        display: block;
+        background: rgba(217, 217, 217, 0.2);
+        backdrop-filter: blur(90px);
+    }
+
+    .navbar-toggler {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar-nav a {
+        font-size: 24px;
+        text-align: center;
         display: block;
     }
+
+
+
+}
+
+
+.language__skills {
+    display: flex;
+    margin-bottom: 35px;
+
+}
+
+.containe__skills {
+    /* background: red; */
+    width: 700px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.language_name_skills {
+    font-size: 36px;
+}
+
+.level__skills {
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.star {
+    width: 18px;
+}
+
+.point_skills {
+    width: 50px;
+    height: 50px;
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 100%;
+    text-align: center;
+    /* padding-top: 20px;
+    margin-bottom: -20px; */
+}
+
+.point_skills p {
+    margin-top: 10px;
+    font-size: 18px
+}
+
+@media (max-width: 1000px) {
+    .language_name_skills {
+        font-size: 24px;
+    }
+
+    .star {
+        width: 17px;
+    }
+
 }
